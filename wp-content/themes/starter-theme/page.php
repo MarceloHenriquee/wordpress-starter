@@ -14,7 +14,7 @@
                     </div>
                     <div class="row">
                       <div class="col-md-4">
-                        <?php get_the_post_thumbnail(); ?> 
+                      <?php the_post_thumbnail(); ?> 
                       </div>
                       <div class="col">
                         <?php the_content(); ?>
