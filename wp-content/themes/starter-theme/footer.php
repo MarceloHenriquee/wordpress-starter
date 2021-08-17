@@ -7,7 +7,7 @@
 <div class="credit container">
     <div class="row">
         <div class="col-sm">
-            <span class="copyright">Copyright ©2018. Todos os direitos reservados.</span>
+            <span class="copyright">Copyright ©2021. Todos os direitos reservados.</span>
         </div>
         <div class="col-sm tw-logo">
             <span class="copyright">
@@ -18,8 +18,8 @@
         </div>
     </div>
 </div>
-<script src="<?= THEME_URI . '/assets/js/app.js' ?>; "></script>
+<script src="<?= THEME_URI . '/assets/js/app.js'; ?> "></script>
 
 </body>
-
+<?php wp_footer() ?>
 </html>
